@@ -27,8 +27,10 @@ Methods
 
 <h5 align="center"><ins>Source: Attention Is All You Need (Vaswani et al. , 2017) </ins> </h5>
 
-![image](https://github.com/10Dennisw/translation-from-english-to-dutch/assets/119337144/366e7db8-3bf4-4dc7-b03e-3c950dc7695f)
-
+<p align="center">
+  <img src="https://github.com/10Dennisw/translation-from-english-to-dutch/assets/119337144/366e7db8-3bf4-4dc7-b03e-3c950dc7695f" alt="Image">
+</p>
+  
 ## Sources
 - Attention Is All You Need (Vaswani et al. , 2017)
 - Deep Learning with Python, Second Edition (François Chollet, 2021)

@@ -3,7 +3,8 @@
 The project is code to solve a sequence-to-sequence problem of translation. Specifically, the translating the sentences from English to Dutch. 
 
 The Github repository contains two Jupyter Notebook scripts, which were used to solve the translation problem. The name and a short summary of the Jupyter Notebook can be seen below:
-- **‘English-to-Dutch.ipy’**: to solve the problem to code employs two approaches that have been implemented using the … library. The two approaches which are used are: Graphical Recurrent Unit (Recurrent Neural Network) and transformer Architecture. The theory and methodology of these two methods will be discussed below.
+- **‘English-to-Dutch.ipynb’**: to solve the problem to code employs two approaches that have been implemented using the … library. The two approaches which are used are: Graphical Recurrent Unit (Recurrent Neural Network) and transformer Architecture. The theory and methodology of these two methods will be discussed below.
+- **‘transfer_learning.ipynb’**: in this notebook a pre-trained transformer is trained by implementing transfer learning on the corpus. By training the respective network the network learns to translate the respective texts in the target language.
 
 # english-to-dutch.ipynb
 
@@ -30,6 +31,12 @@ Methods
 <p align="center">
   <img src="https://github.com/10Dennisw/translation-from-english-to-dutch/assets/119337144/366e7db8-3bf4-4dc7-b03e-3c950dc7695f" alt="Image">
 </p>
+
+
+# transfer_learning.ipynb
+Transfer-Learning involves importing a pre-trained transformer and training it on the corpus. By importing a pre-trained transformer that is trained on a massive amount of data and the fine tuning the transformer on the corpus. This will involve updating the weights of the pre-trained model by backpropagation. Therefore, knowledge is updated from the source domain to a different target domain. This is important since the word meaning may be different in two different domains due to different contexts.
+
+Transfer learning was used due to data scarcity as shown in the original script, words in the training are unknown to the network. To resolve this training can be enhanced. However, due to limited resources this isn’t feasible. Furthermore, this will increase the computational efficiency. Therefore, a pre-trained transformer was imported which reduces computation efficiency and reduces the influence of data scarcity.   
   
 ## Sources
 - Attention Is All You Need (Vaswani et al. , 2017)

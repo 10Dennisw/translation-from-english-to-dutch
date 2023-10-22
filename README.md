@@ -19,7 +19,7 @@ Methods
 - **Transformer**: is an architecture used for many natural language processing tasks. The transformer architecture contains an encoder, decoding and positional encoder to ensure that the unique position is taken into account. Below I have outlined the numerous key features of the Transformer architecture:
   - **Attention Mechanism**: the core idea behind the transformer is the self-attention mechanism, which allows the transformer network to account for the importance of the different words relative to the given word.
   - **Architecture**: 
-    - Encoder**: Encodes the input sequence  multi-head self-attention mechanism and position-wise-forward network
+    - **Encoder**: Encodes the input sequence  multi-head self-attention mechanism and position-wise-forward network
     - **Decoder**: Generates the output centre  multi-head attention layer
   - **Multi-Head Attention**: by using multiple sets the network can focus on different parts of the input tasks or reasons.
   - **Positional Encoding**: which will consider the position of the word in the sequence.

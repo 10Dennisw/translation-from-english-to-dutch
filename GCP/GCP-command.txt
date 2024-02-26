@@ -1,0 +1,1 @@
+gcloud functions deploy generating_translate_sent --runtime python38 --trigger-http --memory 512 --project dynamic-pivot-415410
